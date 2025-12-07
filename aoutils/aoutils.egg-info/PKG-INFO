@@ -1,6 +1,0 @@
-Metadata-Version: 2.4
-Name: aoutils
-Version: 0.1.0
-Summary: Advent of Code 2025 utility package
-Author-email: Gordon Nossack <gordon.nossack@student.hpi.uni-potsdam.de>
-Requires-Python: >=3.10
