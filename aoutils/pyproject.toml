@@ -1,0 +1,6 @@
+[project]
+name = "aoutils"
+version = "0.1.0"
+description = "Advent of Code 2025 utility package"
+authors = [{name="Gordon Nossack", email="gordon.nossack@student.hpi.uni-potsdam.de"}]
+requires-python = ">=3.10"
