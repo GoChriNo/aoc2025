@@ -37,6 +37,14 @@ class Grid:
         self.dim_y = 0
         self.oob_symbol = "X"
 
+    @classmethod
+    def from_size(self, x, y, default_symbol):
+        size_grid = Grid()
+        print(y)
+        for _ in range(y):
+            size_grid.add_row([default_symbol] * x)
+        return size_grid
+
     def add_row(self, row):
         if self.dim_x is None:
             self.dim_x = len(row)
